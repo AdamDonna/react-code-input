@@ -278,7 +278,7 @@ class ReactCodeInput extends Component {
               max={9}
               maxLength={input.length === i + 1 ? 1 : input.length}
               style={styles.input}
-              autoComplete="off"
+              autoComplete="new-password"
               onFocus={(e) => e.target.select(e)}
               onBlur={(e) => this.handleBlur(e)}
               onChange={(e) => this.handleChange(e)}
